@@ -1,6 +1,6 @@
 <div align="center" style="padding-top: 5px">
 
-<img src="SpotFinder_Logo.png" width="300" height="300"/>
+<img src="https://github.com/wilxyz/SpotFinder---Car-Parking-System/blob/main/ReadMe/SpotFinder_Logo.png" width="300" height="300"/>
 
 ## SpotFinder
 *Spot the Best, Park the Rest*
