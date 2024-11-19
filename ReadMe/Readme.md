@@ -178,7 +178,7 @@ python parking_management.py
     - This will prompt the user to enter the reservation ID that they've made that they want to cancel. If the user wish to continue the cancellation, then the user must select the `1. Yes` option. Otherwise, if the user doesn't want to continue the cancellation or having second thoughts, then they must select the `2. No` option. Selecting `3. Return to Dashboard` will just return the user to the main dashboard of the program. 
 
     <p align="center">
-    <img src="Cancel Reservation.png" width="1200px" height="180px"/>
+    <img src="https://github.com/wilxyz/SpotFinder---Car-Parking-System/blob/main/ReadMe/Cancel%20Reservation.PNG" width="1200px" height="180px"/>
     </p>
 
 - **Exit**
