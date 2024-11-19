@@ -138,18 +138,18 @@ python parking_management.py
 - **Dashboard and Menu**
     - *This program will display a dashboard and menu with options such as finding a spot, reserving a space, or exiting the system. This will prompt the user to enter the corresponding number to select an option.*
     <p align="center">
-    <img src="Main Dashboard.png" width="619px" height="251px"/>
+    <img src="https://github.com/wilxyz/SpotFinder---Car-Parking-System/blob/main/ReadMe/Main%20Dashboard.PNG" width="619px" height="251px"/>
     </p>
 
 - **Find A Spot**
     - *This will allow the user to enter the number to view the category of parking.*
     <p align="center">
-    <img src="Find a Spot.png" width="1180px" height="100px"/>
+    <img src="https://github.com/wilxyz/SpotFinder---Car-Parking-System/blob/main/ReadMe/Find%20a%20Spot.PNG" width="1180px" height="100px"/>
     </p>
 
     - *This allows the user to view available slots per category.*
     <p align="center">
-    <img src="Slots.png" width="381px" height="231px"/>
+    <img src="https://github.com/wilxyz/SpotFinder---Car-Parking-System/blob/main/ReadMe/Slots.PNG" width="381px" height="231px"/>
     </p>
 
 - **Reserve your Space**
@@ -157,21 +157,21 @@ python parking_management.py
     - *After entering the details, the user will have a view of their confirmed reservation in a table format.*
 
     <p align="center">
-    <img src="Reserve a Slot.png" width="1200px" height="150px"/>
+    <img src="https://github.com/wilxyz/SpotFinder---Car-Parking-System/blob/main/ReadMe/Reserve%20a%20Slot.PNG" width="1200px" height="150px"/>
     </p>
 
 - **See your Bookings**
     - *This allows the user to view their recent reservations.*
 
     <p align="center">
-    <img src="See your Bookings.png" width="1200px" height="100px"/>
+    <img src="https://github.com/wilxyz/SpotFinder---Car-Parking-System/blob/main/ReadMe/See%20your%20Bookings.PNG" width="1200px" height="100px"/>
     </p>
 
 - **Update your Reservation**
     - *This will prompt the user to enter the reservation ID that they've made that they want to update. After that, They will enter a number from the options on what to update on their chosen reservation which is the Name, Vehicle Plate Number, Contact Number, and the Date and Time of their Reservation.*
 
     <p align="center">
-    <img src="Update Reservation.png" width="1200px" height="250px"/>
+    <img src="https://github.com/wilxyz/SpotFinder---Car-Parking-System/blob/main/ReadMe/Update%20Reservation.PNG" width="1200px" height="250px"/>
     </p>
 
 - **Cancel your Reservation**
