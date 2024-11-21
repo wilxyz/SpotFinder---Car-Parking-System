@@ -107,7 +107,7 @@
 <!-- SDG of the program starts here -->
 
 ## III. Driving Sustainability: Integrating SDG Goals into SpotFinder 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The **Sustainable Development Goal (SDG)** that is mostly aligned to SpotFinder is **SDG 11: Sustainable Cities and Communities**, specifically targeting **sustainable urban planning and mobility**. Here's a more detailed explanation to why this system integrates and supports SDG 11: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*The **Sustainable Development Goal (SDG)** that is mostly aligned to SpotFinder is **SDG 11: Sustainable Cities and Communities**, specifically targeting **sustainable urban planning and mobility**. Here's a more detailed explanation to why this system integrates and supports SDG 11:* 
 
 <div style="margin-left: 50px; margin-right: 50px; text-align: justify;">
 
@@ -120,7 +120,7 @@
 
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This combines the work of SDG 11 by tackling urban mobility problems, encouraging inclusion, minimising environmental impact, and enhancing the support for the modern urban infrastructure. Currently developing technology for parking management, a foundation of its work can be extended to broader sustainable urban development efforts.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*This combines the work of SDG 11 by tackling urban mobility problems, encouraging inclusion, minimising environmental impact, and enhancing the support for the modern urban infrastructure. Currently developing technology for parking management, a foundation of its work can be extended to broader sustainable urban development efforts.*
 
 <!-- SDG of the program ends here -->
 
@@ -199,7 +199,7 @@ python parking_management.py
     </p>
 
 - **Cancel your Reservation**
-    - This will prompt the user to enter the reservation ID that they've made that they want to cancel. If the user wish to continue the cancellation, then the user must select the `1. Yes` option. Otherwise, if the user doesn't want to continue the cancellation or having second thoughts, then they must select the `2. No` option. Selecting `3. Return to Dashboard` will just return the user to the main dashboard of the program. 
+    - *This will prompt the user to enter the reservation ID that they've made that they want to cancel. If the user wish to continue the cancellation, then the user must select the `1. Yes` option. Otherwise, if the user doesn't want to continue the cancellation or having second thoughts, then they must select the `2. No` option. Selecting `3. Return to Dashboard` will just return the user to the main dashboard of the program.*
 
     <p align="center">
     <img src="https://github.com/wilxyz/SpotFinder---Car-Parking-System/blob/main/ReadMe/Cancel%20Reservation.PNG" width="1200px" height="180px"/>
