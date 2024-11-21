@@ -15,7 +15,7 @@
 <div style="margin-left: 250px; margin-right: 250px;">
 
 - [I. Overview](#i-overview)
-- [II. The Application of Python in the Program](#ii-the-application-of-python-in-the-program)
+- [II. The Application of Python Concepts and Libraries](#ii-the-application-of-python-concepts-and-libraries)
 - [III. Driving Sustainability: Integrating SDG Goals into SpotFinder](#iii-driving-sustainability-integrating-sdg-goals-into-spotfinder)
 - [IV. Getting Started: How to Run SpotFinder](#iv-getting-started-how-to-run-spotfinder)
 
@@ -76,7 +76,31 @@
 
 <!-- Application of Python starts here -->
 
-## II. The Application of Python in the Program 
+## II. The Application of Python Concepts and Libraries
+
+### Object-Oriented Programming
+
+*The functions like `view_available_parking`, `reserve_parking`, `delete_reservation`, etc., encapsulate specific functionalities. For instance, `reserve_parking` manages user input, updates the database, and displays reservation details. Database operations are abstracted into individual functions, keeping the logic self-contained and manageable. Global state is minimized by keeping data manipulation confined within specific functions. Users interact with simple options like `"Reserve Parking"` or `"See my Bookings"` without needing to understand how the database or slot management works internally. Database setup and operations (e.g., `setup_database`, `display_slots_table`) abstract complex queries and data updates, allowing the main system logic to remain clean and focused on user interactions.*
+
+### Database Integration
+
+*In this system, SQLite is implemented to handle parking bookings and the slots that are available. It creates required tables such as `reservations` for storing user information and booking times and secondly, `parking_slots` for storing slot category, charges and status among others. Users can see the slots available by categories, select a slot, and whenever the slot is selected, it is updated with user details and its status changed to `“RESERVED”`. Customers also have a capacity to review, modify or delete the existing reservations and when a particular reservation is deleted, the column gets changed to `“AVAILABLE.”` SQL queries are responsible for carrying out operations within the data while Python functions stay in charge of the user interface.*
+
+### Control Flow
+
+*With regards to the control flow, the system reflects the basic concept of flow control through the user. Starting with database configuration where it is initiated to set up the initial database tables and data. The main menu will then appear where from choose to view parking slot, reserve a parking slot, view or update bookings, or log out of the system.*
+
+### User Interaction
+
+*User interaction in the system is straight forward, and the system is fully developed with menus. The users choose actions such as viewing slots, reserving, editing, or even canceling by opting for a menu number. Prompts take basic information, and tables show information in an orderly fashion. Options are given after an operation, confirmation is needed on many occasions such as cancellation, to allow for a clean user interface.* 
+
+### Data Saving
+
+*For data saving in the system storage, an `SQLite` database has been incorporated in the project. All reservations and parking slot details are stored persistently in two tables: `reservation` for users and bookings and `parking_slots` for available slot and charges. Whenever a user creates or modifies a reservation, the data is stored within the database using structural query language, which acts as a guarantee that the data will always be in existence. The cancellations and such or even just the slot update can also be done to the database which ensures real-time updated records.*
+
+### Modular Design
+
+*The functionality of the system is divided into separate, discrete, and reusable functions based on the modular approach. As mentioned, each function performs a specific function such as to display the menu, view slots, to take and input bookings or update the database. This helps to separate out the code and make it easier to read, to revise and to debug.* 
 
 <!-- Application of Python ends here -->
 
@@ -115,13 +139,13 @@
 <div style="margin-left: 50px; margin-right: 50px;"> 
 
 **1. Install the Required Pre-requisites.**
-- *To run the program, ensure that you have Python 3.7 or higher installed. Also, this program uses SQLite3 Database, in which it is pre-installed together with Python, so no additional necessary installation is required for this part.*
+- *To run the program, ensure that you have `Python 3.7` or higher installed. Also, this program uses `SQLite3` Database, in which it is pre-installed together with Python, so no additional necessary installation is required for this part.*
 
 **2. Save the Program.**
-- *Copy the program code and paste it into an empty text editor, may it be from VS Code or Notepad. Save the file and name it as "parking_management.py"*
+- *Copy the program code and paste it into an empty text editor, may it be from `VS Code` or `Notepad`. Save the file and name it as `"parking_management.py"`*
 
 **3. Create a Directory**
-- *Save the file in a dedicated directory. Once the program is being executed, the SQLite database (parking_management.db) will then be created here, ensuring that the Python file and the database are in the same location.*
+- *Save the file in a dedicated directory. Once the program is being executed, the `SQLite` database (`parking_management.db`) will then be created here, ensuring that the Python file and the database are in the same location.*
 
 **4. Run the Program**
 - *Open a terminal or command prompt.*
@@ -184,5 +208,24 @@ python parking_management.py
 - **Exit**
     - *Select option `6. Exit` from the menu to close the program safely.* 
 
+</div>
+
+<div style="text-align: center;">
+
 *Enjoy managing your parking spaces efficiently with* **SpotFinder!**
+
+</div>
+
+## Contact
+
+
+*For any inquiries or contributions, please contact:*
+
+<div style="margin-left: 450px">
+
+
+- 📧 **Email:** [support@spotfinder.com]
+- 📞 **Phone:** [0987 653 4567]
+- <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width=15 height=15> **GitHub Profile:** [https://github.com/wilxyz]
+
 </div>
